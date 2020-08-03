@@ -28,7 +28,7 @@ int main() {
 std::string evaluate_input(std::string_view input) {
 	std::string str(input);
 
-	auto tilde_pos = str.find_first_of("~");
+	auto tilde_pos = str.find_first_of('~');
 
 	if (tilde_pos != std::string::npos) {
 		auto user_path = get_user_folder_path();

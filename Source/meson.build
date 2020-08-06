@@ -1,1 +1,1 @@
-source_files = files(['main.cpp'])
+source_files = files(['context.cpp', 'main.cpp'])
